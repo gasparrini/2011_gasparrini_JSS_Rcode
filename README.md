@@ -3,7 +3,7 @@
 
 --------------------------------------------------------------------------------
 
-A tutorial on the use of distributed lag non-linear models in time series analysis, illustrating the capabilities of the R package dlnm, reproducing the examples in the article:
+A tutorial on the use of distributed lag non-linear models in time series analysis, illustrating the capabilities of the [R package dlnm](https://github.com/gasparrini/dlnm), reproducing the examples in the article:
 
 Gasparrini A. Distributed lag linear and non-linear models in R: the package dlnm. *Journal of Statistical Software*. 2011;**43**(8):1-20. [[freely available here](http://www.ag-myresearch.com/2011_gasparrini_jss.html)]
 
