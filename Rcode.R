@@ -1,17 +1,15 @@
 ####################################################################
 # Updated version of the code for the analysis in:
 #
-#   "Multivariate meta-analysis for non-linear and other 
-#     multi-parameter associations"
+#   "Distributed lag linear and non-linear models in R: the package dlnm"
 #   Gasparrini A
 #   Journal of Statistical Software 2011
-#   http://www.ag-myresearch.com/jss2011.html
+#   http://www.ag-myresearch.com/2011_gasparrini_jss.html
 #
-# Update: 14 March 2016
-# For any problem with this code, please contact antonio.gasparrini@lshtm.ac.uk
-# Please refer to the original code for any copyright issue
-#
-#  See www.ag-myresearch.com for future updates
+# Update: 11 January 2017
+# * an updated version of this code, compatible with future versions of the
+#   software, is available at:
+#   https://github.com/gasparrini/2011_gasparrini_JSS_Rcode
 ####################################################################
 
 ####################################################################
@@ -24,8 +22,8 @@ library("dlnm")
 vignette("dlnmOverview")
 
 # CHECK VERSION OF THE PACKAGE
-  if(packageVersion("dlnm")<"2.2.0")
-    stop("update dlnm package to version >= 2.2.0")
+if(packageVersion("dlnm")<"2.2.0")
+  stop("update dlnm package to version >= 2.2.0")
 
 ####################################################################
 # NON-LINEAR AND DELAYED EFFECTS
